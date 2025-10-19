@@ -1,0 +1,70 @@
+[
+  {
+    "ContainingType": "Hotel_Reservation_System.Controllers.GuestController",
+    "Method": "GetAllGuests",
+    "RelativePath": "api/Guest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hotel_Reservation_System.Controllers.GuestController",
+    "Method": "DeleteGuest",
+    "RelativePath": "api/Guest/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hotel_Reservation_System.Controllers.GuestController",
+    "Method": "SpendingSummary",
+    "RelativePath": "api/Guest/spending-summary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hotel_Reservation_System.Controllers.GuestProfileController",
+    "Method": "CreateGuestProfile",
+    "RelativePath": "api/GuestProfile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Hotel_Reservation_System.DTOs.CreateGuestProfileDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Hotel_Reservation_System.Controllers.GuestProfileController",
+    "Method": "DeleteGuestProfile",
+    "RelativePath": "api/GuestProfile/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
